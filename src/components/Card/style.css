@@ -1,0 +1,38 @@
+.item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  text-align: left;
+  flex: 1;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.title img {
+  margin-right: 10px;
+}
+
+.item:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.btn {
+  text-align: right;
+}
+
+.description {
+  overflow-wrap: break-word;
+  margin-bottom: 1rem;
+}
